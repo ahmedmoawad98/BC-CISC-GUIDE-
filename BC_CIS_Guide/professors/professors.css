@@ -54,3 +54,9 @@ p{
     justify-content: center;
     font-size:x-large;
 }
+
+img {
+    display: block;
+     margin-left: auto; 
+    margin-right: auto;
+  }
