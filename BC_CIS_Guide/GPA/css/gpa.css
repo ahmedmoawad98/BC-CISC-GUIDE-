@@ -1,0 +1,28 @@
+body { font-family: Century Gothic;}
+
+h1 { text-align: center; color: white; margin-left:30px;font-family: Century Gothic;}
+
+table.center { margin-left:auto;
+               margin-right:auto;}
+
+td { font-weight: bold;
+     background: #b5d6ff;
+
+     border: 2px solid grey;
+     border-collapse: collapse;
+     padding: 12px; border-radius: 2px;font-family: Century Gothic;
+     color: white;}
+
+.btnNormal { background-color: white; color:;border-radius: 12px;font-family: Century Gothic;}
+
+.btnReset { background-color:rgb(243, 94, 94); color:white;border-radius: 12px;font-family: Century Gothic;}
+
+.btnCalc { background-color:rgb(86, 117, 255); color:white;border-radius: 12px;font-family: Century Gothic;}
+
+#instructions { border: 3px double grey; width:850px; background-color: #b5d6ff;
+background-color: #b5d6ff 0%;
+background-image: #b5d6ff;
+text-align: left;
+color: white;
+ margin-left:100px;
+font-family: Century Gothic;border-radius: 12px;}
