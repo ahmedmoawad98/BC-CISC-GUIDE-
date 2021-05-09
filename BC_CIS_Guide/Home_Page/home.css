@@ -195,8 +195,7 @@
   }
 }
 
-/* Hero Section */
-/*--TypeWriting*/
+
 .hero__container h1 {
   overflow: hidden;
   border-right: .15em solid orange;
@@ -219,7 +218,7 @@
     from,to {border-color: transparent}
     50% {border-color: #f1f1f1;}
 }
-/*-----end------*/
+
 .hero {
   background: #f7f4f4;
   background: linear-gradient(to right, #f1f1f1, #f2f0f5);
@@ -245,17 +244,17 @@
 }
 
 .hero__heading span {
-  background: #ee0979; /* fallback for old browsers */
+  background: #ee0979; 
   background: -webkit-linear-gradient(
     to right,
     #746458,
     #816774
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  ); 
   background: linear-gradient(
     to right,
     #111111,
     #141414
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ); 
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -265,17 +264,17 @@
 
 .hero__description {
   font-size: 60px;
-  background: #918194; /* fallback for old browsers */
+  background: #918194; 
   background: -webkit-linear-gradient(
     to right,
     #141414,
     #0a0a0a
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  ); 
   background: linear-gradient(
     to right,
     #0d0d0e,
     #050505
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ); 
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -285,17 +284,17 @@
 
 .hero_description {
   font-size: 40px;
-  background: #918194; /* fallback for old browsers */
+  background: #918194; 
   background: -webkit-linear-gradient(
     to right,
     #141414,
     #0a0a0a
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  ); 
   background: linear-gradient(
     to right,
     #0d0d0e,
     #050505
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ); 
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -316,9 +315,6 @@
     font-size: 40px;
   }
 }
-
-
-/* About Section */
 
 .main {
   background-image: linear-gradient(to right, #FFFF 0%, #8cffff 100%);
@@ -419,7 +415,7 @@
     #12d8fa,
     #1fa2ff
   );
-   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
 }
 
 .main_card:nth-child(3) {
@@ -480,7 +476,6 @@
   }
 }
 
-/* major/resources Section */
 .services {
   background: #f1f1f1;
   display: flex;
@@ -532,19 +527,19 @@
 }
 
 .services__card:nth-child(2) {
-  background: #1fa2ff; /* fallback for old browsers */
+  background: #1fa2ff; 
   background: -webkit-linear-gradient(
     to right,
     #a6ffcb,
     #12d8fa,
     #1fa2ff
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  ); 
   background-image: linear-gradient(
     #a6ffcb,
     #12d8fa,
     #1fa2ff
   );
-   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
 }
 
 .services__card:nth-child(3) {
@@ -603,7 +598,7 @@
   }
 }
 
-/* Footer CSS */
+
 .footer__container {
   background-color : #f1f1f1;
   padding: 5rem 0;
